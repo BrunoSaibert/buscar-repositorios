@@ -1,0 +1,39 @@
+{
+  "name": "buscar-repositorios",
+  "version": "1.0.0",
+  "description": "Aplicação para buscar repositórios do github usando JavaScript ES6",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoSaibert/buscar-repositorios.git"
+  },
+  "keywords": [],
+  "author": "Bruno Saibert",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-async-to-generator": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@gerhobbelt/babel-core": "^7.2.1-26",
+    "@gerhobbelt/babel-plugin-proposal-object-rest-spread": "^7.2.1-26",
+    "@gerhobbelt/debug": "^4.1.1-5",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.5.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "bugs": {
+    "url": "https://github.com/BrunoSaibert/buscar-repositorios/issues"
+  },
+  "homepage": "https://github.com/BrunoSaibert/buscar-repositorios#readme"
+}
