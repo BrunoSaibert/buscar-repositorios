@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #333;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  padding: 20px;
+}
+
+#app {
+  background: #fff;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+#app ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#app ul li {
+  clear: both;
+  margin-top: 20px;
+}
+
+#app img {
+  width: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+#app strong {
+  font-size: 20px;
+}
+
+#app p {
+  margin: 10px 0;
+}
+
+#app a {
+  text-decoration: none;
+  font-weight: bold;
+  border: 0;
+  background: #333;
+  color: #fff;
+  padding: 3px 20px;
+  margin: 0;
+  border-radius: 3px;
+}
+#app a:hover {
+  background: #444;
+}
+
+#repo-form {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #333;
+}
+
+#repo-form input {
+  border: 0;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  font-size: 20px;
+}
+
+#repo-form button {
+  border: 0;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 20px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+#repo-form button:hover {
+  background: #444;
+}
+
+#loading span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
